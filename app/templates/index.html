@@ -1,21 +1,78 @@
-<!doctype html>
+<!DOCTYPE HTML>
 
-<head>
-    <link rel="stylesheet" href="static/css/General.css">
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../static/css/main.css" />
+		<noscript><link rel="stylesheet" href="../../static/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-</head>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-<body id="body">
-    <header>
-        <img id="logo" src="static/img/MusicByMoodLogo.png" width="500px"></img><br>
-		<button onclick="location.href='/about'" type="button">About</button> <br>
-    </header>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Music By Mood</h1>
+						<p>Upload a Selfie -> Listen to Music Based on Your Mood</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-   
-    <br>
-    <form method="post" enctype="multipart/form-data"> <input id="chooseFile"  accept="image/jpeg" type="file" name="file">
-        <input id="upload" type="submit" value="Upload">
-    </form>
-</body>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Music By Mood</a>
+					</header>
 
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Try it Out</a></li>
+							<li><a href="generic.html">About Us</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/jeremytjess/EmotionalRecognition" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header><b>Upload a .jpg selfie below, and our model will
+										suggest a Spotify playlist based on the mood
+										your selfie displays!</b>
+								</header>
+									<a href="#" class="image main"><img src="../../static/img/MusicByMoodLogo.png" alt="" /></a>
+									<ul class="actions special">
+										<!--<li><a href="#" class="button large">Choose File</a></li> -->
+										<form method="post" enctype="multipart/form-data"> <!--<input id="chooseFile"  accept="image/jpeg" type="file" name="file"> -->
+											<input id="file" accept="image/jpeg" type="file">
+											<input id="upload" type="submit" value="Upload">
+										</form>
+									</ul>
+							</article>
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Music By Mood</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../static/js/jquery.min.js"></script>
+			<script src="../../static/js/jquery.scrollex.min.js"></script>
+			<script src="../../static/js/jquery.scrolly.min.js"></script>
+			<script src="../../static/js/browser.min.js"></script>
+			<script src="../../static/js/breakpoints.min.js"></script>
+			<script src="../../static/js/util.js"></script>
+			<script src="../../static/js/main.js"></script>
+
+	</body>
 </html>
